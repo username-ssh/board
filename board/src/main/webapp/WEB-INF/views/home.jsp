@@ -16,6 +16,7 @@
 <p>
 <a href="/board/list">게시물 목록</a><br />
 <a href="/board/write">게시물 등록</a>
+
 </p>
 </body>
 </html>

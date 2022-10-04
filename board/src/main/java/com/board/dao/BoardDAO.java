@@ -11,5 +11,7 @@ public interface BoardDAO {
  
  // 게시물 작성
  public void write(BoardVO vo) throws Exception;
+ 
+ public BoardVO view(int bno) throws Exception;
 
 }

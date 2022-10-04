@@ -28,6 +28,12 @@ public class BoardDAOImpl implements BoardDAO {
 public void write(BoardVO vo) throws Exception {
 	// TODO Auto-generated method stub
 	sql.insert(namespace + ".write", vo);
+}
+
+@Override
+public BoardVO view(int bno) throws Exception {
+	// TODO Auto-generated method stub
+	return sql.selectOne(namespace + ".view", bno);
 } 
 
 }
