@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>게시물 조회</title>
+<title>게시물 수정</title>
 </head>
 <body>
 
@@ -23,10 +23,7 @@
 <label>내용</label>
 <textarea cols="50" rows="5" name="content" >${view.content}</textarea><br />
 
-<!-- <button type="submit">작성</button> -->
-<div>
- <a href="/board/modify?bno=${view.bno }">게시물 수정</a>
-</div>
+<button type="submit">완료</button>
 
 </form>
 

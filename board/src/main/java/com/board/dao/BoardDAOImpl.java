@@ -34,6 +34,12 @@ public void write(BoardVO vo) throws Exception {
 public BoardVO view(int bno) throws Exception {
 	// TODO Auto-generated method stub
 	return sql.selectOne(namespace + ".view", bno);
+}
+
+@Override
+public void modify(BoardVO vo) throws Exception {
+	// TODO Auto-generated method stub
+	sql.update(namespace + ".modify", vo);
 } 
 
 }

@@ -13,5 +13,7 @@ public interface BoardDAO {
  public void write(BoardVO vo) throws Exception;
  
  public BoardVO view(int bno) throws Exception;
+ 
+ public void modify(BoardVO vo) throws Exception;
 
 }

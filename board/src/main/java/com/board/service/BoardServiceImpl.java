@@ -33,4 +33,10 @@ public BoardVO view(int bno) throws Exception {
 	return dao.view(bno);
 }
 
+@Override
+public void modify(BoardVO vo) throws Exception {
+	// TODO Auto-generated method stub
+	dao.modify(vo);
+}
+
 }
